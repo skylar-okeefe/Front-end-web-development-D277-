@@ -1,8 +1,8 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace
-    background-color: ;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
@@ -47,7 +47,7 @@ nav ul {
     list-style: none;
     padding: 5px 0;
     margin: 0;
-    background: #090909
+    background: #090909;
     
 }
 
@@ -71,6 +71,7 @@ nav a:hover {
    border-bottom: 5px solid #2d5a27;
    width: 100%;
    overflow: hidden;
+  
 }
 .main-content {
     float: left;
@@ -82,7 +83,7 @@ nav a:hover {
 }
 
 h1 {
-    color: gold
+    color: gold;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -145,7 +146,7 @@ h3 {
 
 .sidebar-image-2 {
     position: relative;
-    top: 20px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -199,16 +200,6 @@ input, textarea, select {
  
 }
 
-button {
-    background-color: #2d5a27;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #1e3d1a;
-}   
 
 cite {
     font-style: italic;
@@ -217,6 +208,7 @@ cite {
 }
 
 footer {
+    position: relative;
     background-color: #2d5a27;
     color: white;
     text-align: center;
@@ -235,6 +227,16 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.top-link {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #1e3d1a;
+    color: gold;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
 .list-container {
 
     width: 100%;
@@ -247,4 +249,43 @@ footer a:hover {
     width: 50%;
     padding: 10px;
    
+}
+
+#contact-form {
+    margin: 20px auto;
+    background-color: #4e894d;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+button {
+    background-color: #2d5a27;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1e3d1a;
+}   
+
+button[type="submit"],
+button[type="reset"] {
+    width: 48%;
+    font-size: 16px;
+    background-color: black;
+    color: gold ;
+}
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: gold;
+    color: black;
 }
