@@ -142,9 +142,10 @@ h3 {
    
 }
 
+
 .sidebar-image-2 {
     position: relative;
-    top: 10px;
+    top: 20px;
     width: 100%;
 }
 
@@ -154,10 +155,13 @@ h3 {
     left: -10px;
     box-shadow: 3px 3px 5px grey;
     padding: 10px; 
-    background-color: #e8f5e9;
-    color: #2d5a27;
+    background-color: #000000;
+    color: #fdfffd;
 }
 
+.sidebar-text h3 {
+    color: gold;
+}
 
 table {
     width: 100%;
@@ -242,7 +246,5 @@ footer a:hover {
     float: left;
     width: 50%;
     padding: 10px;
-}
-.list-column h3 {
-    text-align: left;
+   
 }
