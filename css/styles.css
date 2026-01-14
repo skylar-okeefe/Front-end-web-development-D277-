@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -240,7 +240,7 @@ footer a:hover {
 .list-container {
 
     width: 100%;
-    overflow: auto
+    overflow: auto;
     margin-top: 20px;
 }
 
