@@ -1,0 +1,290 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    line-height: 1.6;
+    padding: 0;
+    color:black;
+    background-color: #c8c5c5;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+header {
+    background-color: #2d5a27;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #1e3d1a;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    background: #090909;
+    
+}
+
+nav a {
+   color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: gold
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+#hero-image {
+   margin-bottom: 30px;   
+   width: 100%;
+   overflow: hidden;
+  
+}
+.main-content {
+    float: left;
+    width: 65%;
+    padding: 20px;
+    background: #c8c5c5;
+    border: 1px ;
+    
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    color: #2d5a27;
+    text-align: center;
+}
+
+h3 {
+    color: #1e3d1a;
+    text-align:center;
+}
+
+.sidebar {
+    float: right;
+    width: 35%;
+    padding: 20px;
+    background-color: #2d5a27;
+    text-align: center;
+    
+    border: 1px solid #ccc;
+    
+}
+
+.left {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background: #c8c5c5;
+    border: 1px solid #ccc;
+    
+}
+
+.center {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    background: #c8c5c5;
+    border: 1px solid #ccc;
+    
+}
+
+.right {
+    float: right;
+    width: 20%;
+    padding-left: 20px;
+    background: #c8c5c5;
+    border: 1px solid #ccc;
+    
+}
+
+.sidebarimage {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+
+.sidebar-image-2 {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.sidebar-text {
+    position: relative;
+    left: -10px;
+    box-shadow: 3px 3px 5px grey;
+    padding: 10px; 
+    background-color: #000000;
+    color: #fdfffd;
+}
+
+.sidebar-text h3 {
+    color: gold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #4e894d;
+}
+
+tbody tr:nth-child(even) {
+    background-color: darkgrey;
+}
+tbody tr:hover {
+    background-color: #e8f5e9;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #000000;
+    color: gold;
+    text-align: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+ 
+}
+
+
+cite {
+    font-style: italic;
+    color: #f5f2f2;
+    font-size: x-small;
+}
+
+footer {
+    position: relative;
+    background-color: #2d5a27;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    border-top: 2px solid #1e3d1a;
+    clear: both;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.top-link {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #1e3d1a;
+    color: gold;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.list-container {
+
+    width: 100%;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.list-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+}
+
+#contact-form {
+    margin: 20px auto;
+    background-color: #4e894d;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+button {
+    background-color: #2d5a27;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1e3d1a;
+}   
+
+button[type="submit"],
+button[type="reset"] {
+    width: 48%;
+    font-size: 16px;
+    background-color: black;
+    color: gold ;
+}
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: gold;
+    color: black;
+}
